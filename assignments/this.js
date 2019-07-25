@@ -13,11 +13,11 @@
 
 // code example for Window Binding
 
-function sayName(name) {
+function saySound(sound) {
     console.log(this);
-    return name;
+    return sound;
   }
-  sayName("Skkrrrt Skkrrrt!");
+  saySound("Skkrrrt Skkrrrt!");
 
 
 // Principle 2
