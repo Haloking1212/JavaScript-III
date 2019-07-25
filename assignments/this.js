@@ -14,7 +14,7 @@
 // code example for Window Binding
 
 function saySound(sound) {
-    console.log(this);
+    console.log(this.sound);
     return sound;
   }
   saySound("Skkrrrt Skkrrrt!");
@@ -60,7 +60,7 @@ function CordialPerson(greeter) {
     this.greeter = greeter;
     this.speak = function() {
       console.log(this.greeting + this.greeter);
-      console.log(this);
+      // console.log(this);
     };
   }
   
